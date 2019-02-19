@@ -31,7 +31,7 @@ namespace shopEFDb
 
         public virtual DbSet<Status> Statuses { get; set; }
         public virtual DbSet<User> Users { get; set; }
-
+        
     }
 
     //public class MyEntity
