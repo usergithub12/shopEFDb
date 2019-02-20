@@ -10,6 +10,13 @@ namespace shopEFDb
     {
         static void Main(string[] args)
         {
-        }
+
+            using (Shop db = new Shop())
+            {
+                // создаем два объекта User
+                User user1 = new User { Name = "Tom", Age = 33 };
+                User user2 = new User { Name = "Sam", Age = 26 };
+
+            }
     }
 }
